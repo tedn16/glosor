@@ -55,3 +55,7 @@ Se `glosor/README.md` för mer om formatet.
 - Svelte 4 + Vite 5 + TypeScript
 - Inga runtime-deps utöver Svelte — bundle ~30 kB gzip
 - Markdown läses in vid build-tid via `import.meta.glob`
+
+## Licens
+
+[MIT](./LICENSE) — fri att använda, ändra och distribuera.
