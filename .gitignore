@@ -1,0 +1,8 @@
+node_modules
+dist
+.vite
+.DS_Store
+*.log
+
+# Källmaterial (scannade pappersläxor) — inte del av appen
+Scanned_*.pdf
