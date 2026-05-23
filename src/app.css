@@ -156,3 +156,13 @@ header button { padding: 0.4rem 0.8rem; min-height: 36px; font-size: 0.875rem; }
   text-decoration: underline;
 }
 .site-footer svg { display: inline-block; vertical-align: middle; }
+.footer-credit {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.footer-logo {
+  image-rendering: pixelated;
+  height: auto;
+  flex-shrink: 0;
+}

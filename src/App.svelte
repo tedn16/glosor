@@ -82,8 +82,9 @@
 </main>
 
 <footer class="site-footer">
-  <div>
-    © 2026 Ted Nordin · <a href="https://github.com/tedn16/glosor/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">MIT-licens</a>
+  <div class="footer-credit">
+    <img src="{import.meta.env.BASE_URL}logo.png" alt="Författarna" class="footer-logo" width="32" height="40" />
+    <span>Skapad i Tvååker · <a href="https://github.com/tedn16/glosor/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">Fri att använda och kopiera · MIT-licens</a></span>
   </div>
   <div>
     <a href="https://github.com/tedn16/glosor" target="_blank" rel="noopener noreferrer" aria-label="Källkoden på GitHub">
