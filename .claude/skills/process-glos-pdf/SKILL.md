@@ -1,7 +1,7 @@
 ---
 name: process-glos-pdf
 description: >
-  Process a scanned weekly glos PDF in the project root and add it as a markdown
+  Process a scanned weekly glos PDF in the pdfs/ folder and add it as a markdown
   file to the /glosor folder. Trigger when the user says things like "process the
   scanned glos PDF", "add the new glosor", "process Scanned_*.pdf", or refers to
   a newly added scanned weekly vocabulary file.
@@ -11,13 +11,13 @@ description: >
 
 This project (`engelska-glosor`) is a Svelte quiz app that loads weekly English/Swedish
 vocabulary lists from `glosor/*.md`. Each week the user scans a paper handout from
-school as `Scanned_YYYYMMDD-HHMM.pdf` in the project root. This skill converts that
+school as `Scanned_YYYYMMDD-HHMM.pdf` in the `pdfs/` folder. This skill converts that
 PDF into the markdown format the app expects.
 
 ## Workflow
 
 1. **Identify the PDF.** If the user named one, use that. Otherwise list
-   `Scanned_*.pdf` in the project root and pick the newest (or ask if ambiguous).
+   `pdfs/Scanned_*.pdf` and pick the newest (or ask if ambiguous).
 
 2. **Read the PDF.** Use the `Read` tool — it returns the rendered pages as
    document content blocks, so the table of word pairs is directly visible. The
